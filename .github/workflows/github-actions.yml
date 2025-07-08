@@ -1,0 +1,5 @@
+name: GitHub Actions for Development
+uses: "google-github-actions/auth@v2"
+with:
+  project_id: "AlexaOS Development"
+  workload_identity_provider: "projects/45968100741/locations/global/workloadIdentityPools/github-actions/providers/github-provider"
